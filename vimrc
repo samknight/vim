@@ -11,3 +11,6 @@ set tabstop=2
 syntax on
 set number
 set t_Co=256
+
+color codeschool
+set guifont=Inconsolata\ 14
