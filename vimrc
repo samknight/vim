@@ -19,3 +19,6 @@ set guifont=Inconsolata\ 14
 set noswapfile
 set nobackup
 set nowritebackup
+
+" Show guideline for ideal width
+set cc=120
