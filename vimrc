@@ -1,5 +1,10 @@
 " Load plugins
 call pathogen#infect()
+call pathogen#helptags()
+filetype plugin on
+
+" Vim app settings
+set nocompatible
 
 " Soft tabs
 set smartindent
