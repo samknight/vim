@@ -8,6 +8,12 @@ Create symlink to hook into vim settings
 
 `ln -s ~/.vim/vimrc ~/.vimrc`
 
+Download the submodules
+
+`git submodule init`
+
+`git submodule update`
+
 # Update
 
 Update the latest settings including vimrc and colors
