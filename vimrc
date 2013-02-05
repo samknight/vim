@@ -20,6 +20,9 @@ set t_Co=256
 color codeschool
 set guifont=Inconsolata\ 14
 
+" Clipboard
+set clipboard=unnamed
+
 " Stop background vim files being created
 set noswapfile
 set nobackup
