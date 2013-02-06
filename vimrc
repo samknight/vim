@@ -15,6 +15,7 @@ set tabstop=2
 " Interface
 syntax on
 set number
+set rnu
 set t_Co=256
 
 color codeschool
