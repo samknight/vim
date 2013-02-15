@@ -1,7 +1,7 @@
-" Load plugins
-call pathogen#infect()
-call pathogen#helptags()
-filetype plugin on
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
 " Vim app settings
 set nocompatible
@@ -31,3 +31,16 @@ set nowritebackup
 
 " Show guideline for ideal width
 set cc=120
+
+" Vundle 
+Bundle 'gmarik/vundle'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'kien/ctrlp.vim'
+Bundle 'ddollar/nerdcommenter'
+Bundle 'tpope/vim-fugitive'
+Bundle 'mileszs/ack.vim'
+
+filetype plugin indent on
