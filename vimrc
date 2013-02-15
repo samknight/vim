@@ -32,6 +32,9 @@ set nowritebackup
 " Show guideline for ideal width
 set cc=120
 
+" Focus display
+vnoremap za <Esc>`<kzfgg`>jzfG`<
+
 " Vundle 
 Bundle 'gmarik/vundle'
 
