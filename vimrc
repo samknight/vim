@@ -17,6 +17,7 @@ syntax on
 set number
 set rnu
 set t_Co=256
+set cursorline
 
 color codeschool
 set guifont=Inconsolata\ 14
@@ -30,7 +31,7 @@ set nobackup
 set nowritebackup
 
 " Show guideline for ideal width
-set cc=120
+set cc=80
 
 " Focus display
 vnoremap za <Esc>`<kzfgg`>jzfG`<
@@ -45,5 +46,11 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'ddollar/nerdcommenter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mileszs/ack.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on
+
+" Nerdtree Settings
+map <C-n> :NERDTreeToggle<CR>
+autocmd vimenter * NERDTree
